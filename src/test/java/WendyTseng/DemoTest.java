@@ -12,7 +12,6 @@ public class DemoTest {
 
         int result=d.Add(1,2);
 
-        Assert.assertEquals(excepted,3,d);
+        Assert.assertEquals(3,result);
     }
-
 }
